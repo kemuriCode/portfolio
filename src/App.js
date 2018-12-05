@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
           <Layout>
-              <Header title="MARCIN DYMEK" scroll>
+              <Header className="header" title="MARCIN DYMEK" scroll>
                   <Navigation>
                   <Link to ="/resume">RESUEM</Link>
                       <Link to ="/aboutme">ABOUT ME</Link>

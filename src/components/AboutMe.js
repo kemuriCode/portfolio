@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ProgressBar } from 'react-mdl';
 
 class AboutMe extends Component {
     render() {
@@ -10,6 +11,8 @@ class AboutMe extends Component {
               alt="avatar"
               style={{height: '500px'}}
                />
+               {/* Progress Bar with Indeterminate Progress */}
+            <ProgressBar style={{ textAlign: 'center', margin: 'auto' }}  indeterminate />
             </div>
         )
     }

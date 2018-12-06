@@ -93,3 +93,8 @@ body {
 .contact-list i {
     margin-right: 1em; 
 }
+
+.progress-bar {
+    text-align: center;
+    margin: 1em; 
+}

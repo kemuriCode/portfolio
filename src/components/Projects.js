@@ -95,7 +95,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Tabs className="category-tabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} >
+                <Tabs className="category-tabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId }) } >
                     <Tab>ReactJS</Tab>
                     <Tab>VueJS</Tab>
                     <Tab>NodeJS</Tab>

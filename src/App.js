@@ -11,7 +11,7 @@ class App extends Component {
           <Layout>
               <Header className="header" title={<Navigation className="logo-name"><Link to={`${process.env.PUBLIC_URL}/`}>MARCIN DYMEK</Link></Navigation>} scroll>
                   <Navigation>
-                    <Link to ={`${process.env.PUBLIC_URL}/resume`}>RESUEM</Link>
+                    <Link to ={`${process.env.PUBLIC_URL}/resume`}>RESUME</Link>
                     <Link to={`${process.env.PUBLIC_URL}/aboutme`}>ABOUT ME</Link>
                     <Link to ={`${process.env.PUBLIC_URL}/projects`}>PROJECTS</Link>
                     <Link to ={`${process.env.PUBLIC_URL}/contact`}>CONTACT</Link>
@@ -20,7 +20,7 @@ class App extends Component {
               <Drawer className="slide-menu" title="MARCIN DYMEK">
                   <Navigation>
                     <Link to={`${process.env.PUBLIC_URL}/`}><img className="menu-logo" src={require('./image/avatar-menu.png')}/></Link>
-                    <Link to ={`${process.env.PUBLIC_URL}/resume`}>RESUEM</Link>
+                    <Link to ={`${process.env.PUBLIC_URL}/resume`}>RESUME</Link>
                     <Link to={`${process.env.PUBLIC_URL}/aboutme`}>ABOUT ME</Link>
                     <Link to ={`${process.env.PUBLIC_URL}/projects`}>PROJECTS</Link>
                     <Link to ={`${process.env.PUBLIC_URL}/contact`}>CONTACT</Link>

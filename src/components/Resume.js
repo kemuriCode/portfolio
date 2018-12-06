@@ -16,7 +16,7 @@ class Resume extends Component {
         return (
           <div>
             <Document
-              file="./public/resume.pdf"
+              file="../pdf/resume.pdf"
               onLoadSuccess={this.onDocumentLoadSuccess}
             >
               <Page pageNumber={pageNumber} />

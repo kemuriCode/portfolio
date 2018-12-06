@@ -12,7 +12,7 @@ class Contact extends Component {
             <img
               src={require("../image/avatar-contact.png")}
               alt="avatar"
-              style={{height: '300px'}}
+              style={{height: '350px'}}
                />
              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I am a student of the 3rd year of Computer Science at the Polish-Japanese Academy of Information Technology in Gdańsk. I have a good base with HTML5, CSS3 and JavaScript. I intend to develop as a Web Developer by grinding my skills in such technologies as: jQuery, Bootstrap4 and Vue.js / React.js. At the moment I'm also discovering the secrets of the PHP language. My current professional goal is to become a Junior Web Developer</p>
           </Cell>

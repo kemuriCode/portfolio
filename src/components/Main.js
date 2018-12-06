@@ -10,11 +10,11 @@ import Resume from './Resume';
 const Main = () => (
     // eslint-disable-next-line no-unused-expressions
     <Switch>
-        <Route exact path ="/" component={LandingPage} />
-        <Route path ="/aboutme" component={AboutMe} />
-        <Route path ="/contact" component={Contact} />
-        <Route path ="/projects" component={Projects} />
-        <Route path ="/resume" component={Resume} />
+        <Route exact path ={process.env.PUBLIC_URL + '/'} component={LandingPage} />
+        <Route path ={process.env.PUBLIC_URL + '/aboutme'} component={AboutMe} />
+        <Route path ={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+        <Route path ={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+        <Route path ={process.env.PUBLIC_URL + '/resume'} component={Resume} />
     </Switch>
 );
 

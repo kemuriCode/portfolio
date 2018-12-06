@@ -13,7 +13,7 @@ const Main = () => (
         <Route exact path ={`${process.env.PUBLIC_URL}/`} component={LandingPage} />
         <Route path ={`${process.env.PUBLIC_URL}/aboutme`} component={AboutMe} />
         <Route path ={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
-        <Route path ={`${process.env.PUBLIC_URL}/project`} component={Projects} />
+        <Route path ={`${process.env.PUBLIC_URL}/projects`} component={Projects} />
         <Route path ={`${process.env.PUBLIC_URL}/resume`} component={Resume} />
     </Switch>
 );

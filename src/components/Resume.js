@@ -14,7 +14,7 @@ class Resume extends Component {
         const { pageNumber, numPages } = this.state;
      
         return (
-          <div>
+          <div className="cv-pdf">
             <Document
               file="../pdf/resume.pdf"
               onLoadSuccess={this.onDocumentLoadSuccess}

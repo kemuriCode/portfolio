@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
           <Layout>
-              <Header className="header" title="MARCIN DYMEK" scroll>
+              <Header className="header" title={<Navigation className="logo-name"><Link to="/">MARCIN DYMEK</Link></Navigation>} scroll>
                   <Navigation>
                     <Link to ="/resume">RESUEM</Link>
                     <Link to ="/aboutme">ABOUT ME</Link>
@@ -16,8 +17,9 @@ class App extends Component {
                     <Link to ="/contact">CONTACT</Link>
                   </Navigation>
               </Header>
-              <Drawer title="MARCIN DYMEK">
+              <Drawer className="slide-menu" title="MARCIN DYMEK">
                   <Navigation>
+                    <Link to="/"><img className="menu-logo" src={require('./image/avatar-menu.png')}/></Link>
                     <Link to ="/resume">RESUEM</Link>
                     <Link to ="/aboutme">ABOUT ME</Link>
                     <Link to ="/projects">PROJECTS</Link>

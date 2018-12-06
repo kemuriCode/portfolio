@@ -11,44 +11,41 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
         return(
             <div className="projects-grid">
-            {/* Project 1 */}
-    <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
-        <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris sagittis pellentesque lacus eleifend lacinia...
-        </CardText>
-        <CardActions border>
-            <Button colored>Github</Button>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-        </CardMenu>
-</Card>
-
-            {/* Project 2 */}
-    <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
-        <CardText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris sagittis pellentesque lacus eleifend lacinia...
-        </CardText>
-        <CardActions border>
-            <Button colored>Github</Button>
-        </CardActions>
-        <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-        </CardMenu>
-    </Card>
-                {/* Project 3 */}
+                {/* Project 1 */}
         <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Hangman Game</CardTitle>
             <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris sagittis pellentesque lacus eleifend lacinia...
+                Minimalistic HANGMAN game created by me... 
             </CardText>
             <CardActions border>
-            <Button colored>Github</Button>
+                <Button colored><a href="https://github.com/t0shifollow/hangman_game">GITHUB</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+        </Card>
+
+                {/* Project 2 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Snake Game</CardTitle>
+            <CardText>
+            VERY simple snake game done in React...
+            </CardText>
+            <CardActions border>
+                <Button colored><a href="https://github.com/t0shifollow/hangman_game">Github</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+        </Card>
+                {/* Project 3 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>ToDo App</CardTitle>
+            <CardText>
+                This is simple Todo List done in React.js...
+            </CardText>
+            <CardActions border>
+            <Button colored><a href="https://github.com/t0shifollow/todo_app_react">Github</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
@@ -61,33 +58,17 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/* Project 1 */}
         <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Vue.js Demo</CardTitle>
             <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
+                Only Vue.js demo app make by Parcel...
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
+                <Button colored><a href="https://github.com/t0shifollow/vue_with_parcel_demo">Github</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
             </CardMenu>
     </Card>
-    
-                {/* Project 2 */}
-        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
-            <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-                <Button colored>Github</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
-        </Card>
         </div>
             )
         } else if (this.state.activeTab === 2) {
@@ -95,28 +76,12 @@ class Projects extends Component {
                 <div className="projects-grid">
                 {/* Project 1 */}
         <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Twitter Clone</CardTitle>
             <CardText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris sagittis pellentesque lacus eleifend lacinia...
+                Nice clone Twitter CRUD application with node.js...
             </CardText>
             <CardActions border>
-                <Button colored>Github</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
-    </Card>
-    
-                {/* Project 2 */}
-        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
-            <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris sagittis pellentesque lacus eleifend lacinia...
-            </CardText>
-            <CardActions border>
-                <Button colored>Github</Button>
+                <Button colored><a href="https://github.com/t0shifollow/Twitter_CRUD_Application">Github</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />

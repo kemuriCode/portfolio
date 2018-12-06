@@ -1,5 +1,39 @@
 .header {
-background: #77A1D3;
-background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);
-background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); 
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-gird {
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
+}
+
+.avatar-img {
+    height: 250px;
+    padding-top: 5em; 
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    margin: auto;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    color: white;
 }

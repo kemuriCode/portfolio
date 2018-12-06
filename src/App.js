@@ -10,18 +10,18 @@ class App extends Component {
           <Layout>
               <Header className="header" title="MARCIN DYMEK" scroll>
                   <Navigation>
-                  <Link to ="/resume">RESUEM</Link>
-                      <Link to ="/aboutme">ABOUT ME</Link>
-                      <Link to ="/projects">PROJECTS</Link>
-                      <Link to ="/contact">CONTACT</Link>
+                    <Link to ="/resume">RESUEM</Link>
+                    <Link to ="/aboutme">ABOUT ME</Link>
+                    <Link to ="/projects">PROJECTS</Link>
+                    <Link to ="/contact">CONTACT</Link>
                   </Navigation>
               </Header>
               <Drawer title="MARCIN DYMEK">
                   <Navigation>
-                  <Link to ="/resume">RESUEM</Link>
-                      <Link to ="/aboutme">ABOUT ME</Link>
-                      <Link to ="/projects">PROJECTS</Link>
-                      <Link to ="/contact">CONTACT</Link>
+                    <Link to ="/resume">RESUEM</Link>
+                    <Link to ="/aboutme">ABOUT ME</Link>
+                    <Link to ="/projects">PROJECTS</Link>
+                    <Link to ="/contact">CONTACT</Link>
                   </Navigation>
               </Drawer>
               <Content>

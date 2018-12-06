@@ -58,11 +58,71 @@ class Projects extends Component {
         )
         } else if (this.state.activeTab === 1) {
             return(
-                <div className="tabs-color"><h1>This is VueJS</h1></div>
+                <div className="projects-grid">
+                {/* Project 1 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardText>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+                <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+    </Card>
+    
+                {/* Project 2 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mauris sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+                <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+        </Card>
+        </div>
             )
         } else if (this.state.activeTab === 2) {
             return(
-                <div className="tabs-color"><h1>This is NodeJS</h1></div>
+                <div className="projects-grid">
+                {/* Project 1 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardText>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+                <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+    </Card>
+    
+                {/* Project 2 */}
+        <Card shadow={0} style={{width: '450px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+            <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Mauris sagittis pellentesque lacus eleifend lacinia...
+            </CardText>
+            <CardActions border>
+                <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+                <IconButton name="share" />
+            </CardMenu>
+        </Card>
+        </div>
             )
         }
 }

@@ -11,9 +11,9 @@ class LandingPage extends Component {
                     <Cell col={12}>
                         <img className="avatar-img" src={require('../image/avatar.png')} />
                         <div className="banner-text">
-                            <h1>Frontend / Javascript Developer</h1>
+                            <h1>Junior Web Developer</h1>
                             <hr/>
-                            <p>HTML/CSS | Jav￼aScript | React | Bootstrap | SASS | SQL</p>
+                            <p>HTML / CSS | Jav￼aScript | ReactJS | Bootstrap | SASS | SQL</p>
                             <div className="social-links">
                                 <a href="http://facebook.com" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-facebook-square" aria-hidden="true" />

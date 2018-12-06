@@ -80,3 +80,15 @@ body {
 .category-tabs a {
     color: white;
 }
+
+/* Contact site */
+
+.contact-body,
+.contact-grid,
+.contact-list i {
+    color: white;
+}
+
+.contact-list i {
+    margin-right: 1em; 
+}

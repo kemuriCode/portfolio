@@ -70,3 +70,13 @@ body {
     font-size: 4em;
     padding: 10px;
 }
+
+/* Projects site */
+
+.projects-grid {
+    display: flex;
+}
+
+.category-tabs a {
+    color: white;
+}

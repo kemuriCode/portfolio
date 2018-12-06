@@ -20,7 +20,7 @@ class App extends Component {
               <Drawer className="slide-menu" title="MARCIN DYMEK">
                   <Navigation>
                     <Link to="/"><img className="menu-logo" src={require('./image/avatar-menu.png')}/></Link>
-                    <Link to ="/resume">RESUEM</Link>
+                    <Link to ="/resume">RESUME</Link>
                     <Link to ="/aboutme">ABOUT ME</Link>
                     <Link to ="/projects">PROJECTS</Link>
                     <Link to ="/contact">CONTACT</Link>
